@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <img src="./Assets/imgs/javascript-logo-removebg-preview.png" alt="JavaScript Logo" class="logo">
+            <div class="header-text">
+                <h1>Learning JavaScript - Arrays and Objects Methods with Modification of DOM</h1>
+                <p>Visual practice & notes</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="card">
+            <!-- content -->
+
+            <h2>Challenge Unit Array methods</h2>
+            
+            <h3>Complete task Manager</h3>
+            <!-- Card code block example -->
+            <div class="code-block">
+                <div class="code-header">
+                    <span class="code-title">Search_Tasks.js</span>
+                </div>
+
+                <div class="center">
+
+                    <h3>Tasks Manager:</h3>
+                    <input type="text" id="input_task" placeholder="Insert your task">
+                    
+                    <label for="priority">Priority:</label>
+                    
+                    <select name="priority" id="select_priority">
+                        <option value="red">High</option>
+                        <option value="yellow">Medium</option>
+                        <option value="green">Low</option>
+                    </select>
+                    <br>
+
+                    <button class="btn" type="button" id="add_task_btn">Add New Task</button>
+                    <br><br>
+                    <input type="text" id="search_task">
+                    <button class="btn" type="button" id="btn_search_task">Search</button>
+
+                    <h3>TODO List:</h3>
+
+                </div>
+                
+                <table>
+                    <thead>
+                        <th>ID:</th>
+                        <th>Task:</th>
+                        <th>Priority:</th>
+                    </thead>
+                    <tbody id="table_body">
+                        
+                        <!-- content table, render rows -->
+                    </tbody>
+                </table>
+                <div class="countTasks">Tasks Initialized: <span id="count_tasks" ></span></div>
+                
+
+
+            </div>
+
+        </section>
+    </main>
+    
+    
+    <footer class="main-footer">
+        <p>Leandro Funes <a href="https://github.com/Quietchie-Code-Lean"><i class="fa-brands fa-square-github fs-xxl"></i></a> Practice file Fullstack_JS G105</p>
+    </footer>
+    
+    
+   <!--  external script  -->
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
