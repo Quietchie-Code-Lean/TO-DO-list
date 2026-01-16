@@ -164,7 +164,7 @@ code {
 }
 
 
-.btn {
+.btnDelete {
     margin-top: 0.8rem;
     padding: 0.5rem 1rem;
     background: #7A1025;
@@ -176,9 +176,15 @@ code {
     transition: background 0.3s ease;
 }
 
-.btn:hover {
+.btnDelete:hover {
     background: #E5DCC5;
 }
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
 ol {
     margin-left: 2.5rem;
     margin-bottom: 0.8rem;
@@ -197,7 +203,7 @@ ul {
 .centerBox {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 }
 
 .centerBox img {
@@ -250,3 +256,32 @@ ul {
 .countTasks{
     margin: 0.5rem 1rem;
 }
+
+.container-design{
+    margin-top: 2rem;
+    display: flex;
+    
+}
+
+.table-design{
+    width: 80%;
+    height: auto;
+}
+
+.counters{
+    width: 20%;
+    height: auto;
+}
+
+
+#new_task{
+    width: 75%;
+    height: 1.5rem;
+}
+
+.inner-container{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
